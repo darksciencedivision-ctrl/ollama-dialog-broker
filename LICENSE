@@ -1,29 +1,32 @@
-﻿Educational and Research License
+﻿Ollama Dialog Broker — Research & Educational License (Non-Commercial)
 
 Copyright (c) 2026 Samuel Lawson
 
-Permission is hereby granted, free of charge, to any person or organization
-obtaining a copy of this software and associated documentation files (the
-"Software"), to use, copy, modify, and distribute the Software solely for:
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to use,
+copy, modify, and distribute the Software for EDUCATIONAL and RESEARCH purposes,
+provided that:
 
-- educational purposes
-- academic research
-- non-commercial experimentation
-- personal learning
-- non-monetized demonstrations
+1) Non-Commercial Use Only
+   You may not use the Software (or substantial portions of it) for any
+   commercial purpose, including but not limited to: selling, licensing,
+   SaaS/hosting, paid consulting deliverables, internal commercial product
+   development, or any revenue-generating activity, without a separate
+   commercial license.
 
-The Software may NOT be used, in whole or in part, for commercial purposes
-without a separate commercial license.
+2) Attribution
+   You must retain this license text and copyright notice in all copies
+   or substantial portions of the Software.
 
-Commercial purposes include, but are not limited to:
-- selling or licensing the Software
-- offering the Software as part of a paid service
-- internal business use
-- monetized content or platforms
-- consulting, client work, or enterprise deployment
+3) No Warranty
+   THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+   IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+   FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+   AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+   LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+   OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN
+   THE SOFTWARE.
 
-THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
-IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
-FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT.
-
-For commercial licensing, see COMMERCIAL-LICENSE.md.
+Commercial Licensing
+For commercial use, see COMMERCIAL-LICENSE.md or contact:
+Darksciencedivision@gmail.com
