@@ -1,27 +1,37 @@
-﻿# Commercial License — Ollama Dialog Broker
+﻿# Ollama Dialog Broker — Commercial License
 
-Copyright (c) 2026 Samuel Lawson
+Copyright (c) 2026 Samuel Lawson  
+Contact: Darksciencedivision@gmail.com
 
 ## Summary
-This project is free for educational and research use under the terms in LICENSE.
-Any commercial use requires a paid commercial license.
+This repository is dual-licensed:
+- **Free for educational and research use** under the **Non-Commercial License** in LICENSE
+- **Commercial use requires a paid license** under the terms described here
 
-## What counts as commercial use (examples)
-- Selling the software or a derivative
-- Using it in a paid product, service, SaaS, or hosted offering
-- Using it for internal development of a commercial system
-- Paid consulting deliverables where this software is part of the deliverable
+## Commercial Use Requires a Paid License
+Commercial use includes (non-exhaustive):
+- Selling the software or derivatives
+- Bundling with a paid product/service
+- Hosting it as a paid service (SaaS, managed instance, subscription, etc.)
+- Using it in paid consulting deliverables
+- Internal business use where the tool is material to revenue generation
 
-## Commercial license grant
-Upon payment and written agreement, the licensor grants you a non-exclusive,
-non-transferable commercial license to use, modify, and distribute the software
-for your commercial purposes.
+## How to Obtain a Commercial License
+Email: **Darksciencedivision@gmail.com**  
+Include:
+- Your name / organization
+- Intended use case (product, service, internal, etc.)
+- Distribution scope (internal only vs external customers)
+- Estimated users / deployments
 
-## Contact
-To obtain pricing and terms:
-- Email: Darksciencedivision@gmail.com
-- Name: Samuel Lawson
+## Default Terms (Negotiable)
+Unless otherwise agreed in writing:
+- License is **non-transferable**
+- No sublicensing
+- You must retain copyright notices
+- You may modify the software for your use case
+- Support / warranty: **none**, unless separately contracted
 
-## Notes
-This file is a terms overview. Final commercial terms are provided via written
-agreement/email confirmation from the licensor.
+## Legal
+A signed written agreement is required for a commercial license grant.
+Until then, commercial use is not permitted.
