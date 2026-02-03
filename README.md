@@ -35,3 +35,12 @@ logs/system.txt
 - No autonomous planning
 
 MIT License.
+
+## Licensing
+
+This project is dual-licensed:
+
+- Free for educational and research use
+- Commercial use requires a paid license
+
+See LICENSE and COMMERCIAL-LICENSE.md for details.
