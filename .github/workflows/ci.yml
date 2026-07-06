@@ -1,0 +1,25 @@
+name: ci
+on: [push, pull_request]
+jobs:
+  lint:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: PSScriptAnalyzer (errors only)
+        shell: pwsh
+        run: |
+          Install-Module PSScriptAnalyzer -Force -Scope CurrentUser
+          $r = Get-ChildItem -Recurse -Filter *.ps1 | ForEach-Object {
+            Invoke-ScriptAnalyzer -Path $_.FullName -Severity Error
+          }
+          $r | Format-Table -AutoSize
+          if ($r) { exit 1 }
+      - name: Validate JSON files
+        shell: pwsh
+        run: |
+          $bad = @()
+          Get-ChildItem -Recurse -Filter *.json | ForEach-Object {
+            try { Get-Content $_.FullName -Raw | ConvertFrom-Json | Out-Null }
+            catch { $bad += $_.FullName; Write-Host "INVALID: $($_.FullName)" }
+          }
+          if ($bad) { exit 1 }
