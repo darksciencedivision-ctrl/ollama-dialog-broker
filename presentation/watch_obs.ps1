@@ -3,7 +3,7 @@
 # A = Neo (Builder) | B = Clue (Challenger)
 
 param(
-  [string]$Root="C:\ai_control\R1_DIALOG",
+  [string]$Root=(Split-Path -Parent $PSScriptRoot),
   [int]$TailLines=300
 )
 

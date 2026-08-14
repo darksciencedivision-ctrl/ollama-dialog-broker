@@ -1,6 +1,6 @@
 ﻿# Ollama Dialog Broker — Commercial License
 
-Copyright (c) 2026 Sam Flynn  
+Copyright (c) 2026 Samuel Lawson  
 Contact: Darksciencedivision@gmail.com
 
 ## Summary

@@ -1,4 +1,3 @@
-# C:\ai_control\R1_DIALOG\broker.ps1
 # STABLE AUTOPILOT DIALOG BROKER (8-hour friendly)
 #
 # Features:
@@ -18,7 +17,8 @@
 # - logs\system.txt  : system + errors + rotation events
 
 param(
-  [string]$Root = "C:\ai_control\R1_DIALOG",
+  # Working root for inbox/, logs/, and the STOP file (defaults to the repo root)
+  [string]$Root = (Split-Path -Parent $PSScriptRoot),
   [string]$OllamaBaseUrl = "http://127.0.0.1:11434",
 
   # Models (must match 'ollama list' names)
