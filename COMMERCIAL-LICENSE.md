@@ -1,4 +1,4 @@
-﻿# Ollama Dialog Broker — Commercial License
+# Ollama Dialog Broker — Commercial License
 
 Copyright (c) 2026 Samuel Lawson  
 Contact: Darksciencedivision@gmail.com
